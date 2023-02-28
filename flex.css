@@ -1,0 +1,279 @@
+
+
+.flexOne {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  
+}
+
+ .squaresOne_wrapper {
+  display: flex;
+  justify-content: center;
+  
+ }
+ .squaresOne_wrapper>.square {
+  background-color:teal;
+  height:100px;
+  width:100px;
+  margin:5px;
+}
+
+.flexTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+ }
+ .flexTwo >.square {
+   background-color:teal;
+   height:100px;
+   width:100px;
+   margin:2px;
+ }  
+
+
+.flexThree {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: flex-end;
+   align-items:center;
+   margin-top: 20px;
+  }  
+
+ .squaresThree_wrapper {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: flex-end;
+   
+  }
+  .squaresThree_wrapper>.square {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    background-color:teal;
+    height:100px;
+    width:100px;
+    margin:2px;
+    
+   }
+  .squaresThree_wrapper >.squareOne {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+   }
+  .squaresThree_wrapper >.squareTwo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start; 
+   }
+  .squaresThree_wrapper >.squareThree {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+   }
+ 
+.flexFour {
+   display: flex;
+   width:350px;
+   margin-top: 20px;
+  }
+  .squaresFour_wrapper {
+   display: flex;
+   width: 350px;
+   flex-wrap:wrap;
+  }
+
+  .squaresFour_wrapper>.square {
+   background-color:#3d8b6d;;
+   height:100px;
+   width:100px;
+   margin:5px;
+  }
+
+
+.flexFive {
+   display: flex;
+   width: 350px;
+   margin-top: 20px;
+}
+
+ .squaresFive_wrapper {
+   display: flex;
+   width: 350px; 
+  }
+
+ .squaresFive_wrapper> .square {
+   background-color:#0b6643;
+   width:100px;
+   height:100px;
+   margin:2px;
+  }  
+ .squaresFive_wrapper> .square2 {
+   display: flex;
+   flex-grow: 2;
+  }
+
+.flexSix_wrapper {
+  display: flex;
+  flex-direction: column;
+  height:400px;
+  width: 500px;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+
+}
+ .flexSix_wrapper>.one {
+  display: flex;
+  flex-direction:row-reverse;
+  justify-content:space-around;
+  align-items: center;
+}
+ .flexSix_wrapper>.two {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:space-between;
+  background-color: #d6d6d6;
+  align-items: center;
+}
+ .flexSix_wrapper>.three {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.flexSeven_wrapper {
+  background-color: #f1f1f1;
+  height: 400px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+ .flexSeven_wrapper>.one {
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+
+  }
+
+ .flexSeven_wrapper>.two {
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-end;
+   background-color: #d6d6d6;
+  }
+ .flexSeven_wrapper>.three {
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-start;
+  }
+ .flexSeven_wrapper>.four {
+   display: flex;
+   flex-direction: column;
+   justify-content:space-between;
+   background-color: #d6d6d6;
+  
+  }
+ .flexSeven_wrapper>.one >.square {
+   height:300px;
+  }
+  .flexSeven_wrapper>.two>.square {
+   height:300px;
+  }
+  .flexSeven_wrapper>.three>.square {
+   height:300px;
+   }
+   
+.flexEight {
+   background-color: #eeeeee;
+   height:400px;
+   width:300px;
+   display: flex;
+}
+.flexEight>.one {
+  display: flex;
+  align-items: center;
+}
+.flexEight>.two {
+  display: flex;
+  align-items:flex-end;
+}
+.flexEight>.three {
+  display: flex;
+  align-items: flex-start;
+}
+.flexEight >.one >.square {
+  margin: 0px;
+}
+.flexEight >.two >.square {
+  margin: 0px;
+}
+.flexEight >.three >.square {
+  margin: 0px;
+}
+
+.flexNine {
+  background-color: #eeeeee;
+  height:250px;
+  width:450px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 20px;
+ }
+
+ .flexNine >.three >.square3 {
+   display: flex;
+   align-self: flex-end;
+   justify-content: space-evenly;
+
+ }
+ #square3 {
+   background-color:teal;
+   height:100px;
+   width:100px;
+   margin:5px;
+   display: flex;
+   align-self:flex-end;
+ }
+
+.square {
+  background-color:teal;
+  height:100px;
+  width:100px;
+ }
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+
+
+
+
+
+
+
+
